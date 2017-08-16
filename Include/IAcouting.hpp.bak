@@ -1,0 +1,9 @@
+#pragma once
+
+class IAcounting
+{
+public:
+    virtual bool IsVIPMember(const string&) = 0;
+    virtual void recordBill() = 0;
+    
+};

@@ -1,0 +1,9 @@
+#pragma once
+
+class Role;
+class IResource
+{
+public:
+		virtual void read()=0;
+		virtual void write()=0;
+};
